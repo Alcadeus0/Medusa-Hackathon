@@ -1,84 +1,58 @@
-<p align="center">
-  <a href="https://www.medusa-commerce.com">
-    <img alt="Medusa" src="https://user-images.githubusercontent.com/7554214/153162406-bf8fd16f-aa98-4604-b87b-e13ab4baf604.png" width="100" />
-  </a>
-</p>
-<h1 align="center">
-  Medusa Gatsby Starter
-</h1>
-<p align="center">
-Medusa is an open-source headless commerce engine that enables developers to create amazing digital commerce experiences.
-</p>
-<p align="center">
-  <a href="https://github.com/medusajs/medusa/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Medusa is released under the MIT license." />
-  </a>
-  <a href="https://github.com/medusajs/medusa/blob/master/CONTRIBUTING.md">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
-  </a>
-  <a href="https://discord.gg/xpCwq3Kfn8">
-    <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
-  </a>
-  <a href="https://twitter.com/intent/follow?screen_name=medusajs">
-    <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Follow%20@medusajs" alt="Follow @medusajs" />
-  </a>
-</p>
+<h1>Sneaker Snazz</h1>
 
-> **Prerequisites**: To use the starter you should have a Medusa server running locally on port 9000. Check out [medusa-starter-default](https://github.com/medusajs/medusa-starter-default) for a quick setup.
+![galaxy-cover-template#2](https://user-images.githubusercontent.com/59562284/197400047-a13fb554-a889-4d09-b27c-a846c03f3e92.jpg)
 
-## 🚀 Quick Start
+<h2>About</h2>
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/medusajs/gatsby-starter-medusa)
+### Participants
 
-1. **Create a new Gatsby project**
+Github - @Alcadeus0
 
-```zsh
-  npx gatsby new my-medusa-storefront https://github.com/medusajs/gatsby-starter-medusa
+### Description
 
-  # or
+An ecommerce store for sneakers built using 'Medusa', 'Gatsby' and 'Tailwind'. It includes products screen, cart, checkout, payment.
 
-  git clone https://github.com/medusajs/gatsby-starter-medusa.git my-medusa-storefront
+### Preview
+
+![Screenshot from 2022-10-23 19-59-11](https://user-images.githubusercontent.com/59562284/197400314-a07c99d2-cca7-47a1-91b8-9f64e36313fa.png)
+![Screenshot from 2022-10-23 20-23-06](https://user-images.githubusercontent.com/59562284/197400374-6b17ac92-bf99-4d5d-b6c7-2c228ef1a668.png)
+![Screenshot from 2022-10-23 20-23-19](https://user-images.githubusercontent.com/59562284/197400422-74a6a5d3-4389-4ce4-95a1-48eb7ce61a7a.png)
+![Screenshot from 2022-10![Screenshot from 2022-10-23 20-23-44](https://user-images.githubusercontent.com/59562284/197400547-6aa598cd-a8aa-4965-b73a-44f434b19b2c.png)
+-23 20-24-51](https://user-images.githubusercontent.com/59562284/197400475-255bcf4e-19fc-4e16-a760-a35872f79cdb.png)
+
+<h2>Set Up Project</h2>
+
+### Prerequisites
+
+Before you start with the tutorial make sure you have:
+
+- [Node.js](https://nodejs.org/en/)
+- [Redis](https://redis.io/)
+- [Medusa server](https://docs.medusajs.com/quickstart/quick-start/) installed and running on your machine
+- [Stripe](https://docs.medusajs.com/add-plugins/stripe/) and [MinIO](https://min.io/docs/minio/kubernetes/upstream/) plugins on the Medusa server
+
+### Install Project
+
+1. Clone the repo:
+
+```sh
+git clone https://github.com/Alcadeus0/Sneaker-Snazz.git
+cd Sneaker-Snazz
 ```
 
-2. **Install dependencies**
+2. Install dependecies:
 
-```zsh
-  cd my-medusa-storefront
-  yarn
+```sh
+yarn install
 ```
 
-3. **Link to your backend**
+3. Start the server:
 
-In the folder `my-medusa-storefront` you should have a `.env.template` file with the following content:
-
-```shell
-GATSBY_MEDUSA_BACKEND_URL=http://localhost:9000
-```
-
-Before you can start developing your site you first need to copy this file into a new file named `.env.development`.
-
-```zsh
-mv .env.template .env.development
-```
-
-Per default your Medusa server should be running on `localhost:9000`, but if you have changed this you will then need to replace `GATSBY_MEDUSA_BACKEND_URL` with the URL of your Medusa server.
-
-```zsh
-GATSBY_MEDUSA_BACKEND_URL=<link to your server>
-```
-
-4. **Start development**
-
-You should now be able to start developing your site.
-
-```zsh
+```sh
 yarn start
 ```
 
-5. **Open the source code and start editing!**
+<h2>Resources</h2>
 
-   Your site is now running at `http://localhost:8000`!
-
-   _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
-
-   Open the `my-medusa-starter` directory in your code editor of choice and edit `src/pages/index.jsx`. Save your changes and the browser will update in real time!
+- [Medusa's Documentation](https://docs.medusajs.com/)
+- [Medusa's GitHub Repo](https://github.com/medusajs/medusa)

@@ -13,7 +13,7 @@ Github - @Alcadeus0
 An ecommerce store for sneakers built using 'Medusa', 'Gatsby' and 'Tailwind'. It includes products screen, cart, checkout, payment.
 
 ### Preview
-
+![clideo_editor_2503bf36282748e3a2b1d3800719a738](https://user-images.githubusercontent.com/59562284/197402203-12ce8296-5371-4c75-9c45-fbb503d107cf.gif)
 ![Screenshot from 2022-10-23 19-59-11](https://user-images.githubusercontent.com/59562284/197400314-a07c99d2-cca7-47a1-91b8-9f64e36313fa.png)
 ![Screenshot from 2022-10-23 20-23-06](https://user-images.githubusercontent.com/59562284/197400374-6b17ac92-bf99-4d5d-b6c7-2c228ef1a668.png)
 ![Screenshot from 2022-10-23 20-23-19](https://user-images.githubusercontent.com/59562284/197400422-74a6a5d3-4389-4ce4-95a1-48eb7ce61a7a.png)

@@ -1,0 +1,71 @@
+@tailwind base;
+
+h1 {
+  @apply text-2xl font-serif;
+}
+
+h2 {
+  @apply text-xl font-semibold;
+}
+
+h3 {
+  @apply text-lg font-mono;
+}
+
+a {
+  @apply text-black;
+}
+
+p {
+  @apply font-light;
+}
+
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+@layer components {
+  .btn-ui {
+    @apply py-2 px-4 bg-[pink] text-black text-sm font-medium rounded-md shadow focus:outline-none focus:ring-2 focus:ring-opacity-75;
+  }
+}
+
+@layer components {
+  .checkbox-ui {
+    @apply text-black mr-2 h-4 w-4 focus:ring-ui-dark focus:ring-opacity-25 border border-ui-medium rounded-sm transition duration-150 ease-in-out;
+  }
+}
+
+@layer components {
+  .layout-base {
+    @apply min-h-screen max-w-screen-2xl mx-auto py-12 px-4 sm:py-8 sm:px-6 lg:px-12;
+  }
+}
+
+body {
+  background-color: hsl(39, 100%, 60%);
+}
+
+.band{
+  background-image: url(../images/store.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  height: 500px;
+}
+
+.band > div {
+  background-color: black;
+  padding: 1em;
+  border-radius: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  opacity: .75;
+  color: pink;
+}
+.band > div > h1 {
+  color: hsl(39, 100%, 60%);
+}

@@ -4,9 +4,6 @@
 
 <h2>About</h2>
 
-### Participants
-
-Github - @Alcadeus0
 
 ### Description
 
